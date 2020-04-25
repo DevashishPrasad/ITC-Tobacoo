@@ -1,5 +1,5 @@
 # ITC-Tobacoo
-This repo contains code for the SIH 2019 project 
+This repo contains code for the SIH 2019 project. Tobaco classification on the basis of color, texture and ripeness. This project was delivered to ITC ltd
 
 ## Features extracted
 1) Gabor
