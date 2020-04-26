@@ -1,0 +1,19 @@
+TITLE: 
+Leveraging Artificial Intelligence & Image Processing for Online Inspection of Packed Cases 
+
+1.BACKGROUND: 
+Leaves of a crop are threshed and are packed into 200 Kg cases. 10% of these packed cases are later inspected for conformity to the master case approved by the customer in terms of Color, Ripeness and Uniformity. The quality inspection processes are manually operated and rely on the judgmental experience of the experts. The judgment is heavily driven by personal, business and environmental factors and is highly subjective. 
+
+2.PROBLEM DESCRIPTION: 
+Inspection is a crucial activity to ensure customer satisfaction. Although it doesn’t eliminate the defects in the product, it helps identify the defective products before they are dispatched to the customer. The limitations with the existing inspection process is multi-fold. 
+• While Customer expects all the cases to be inspected, due to space and man-power constraints, today, the business is able to achieve only 10% inspection. 
+• As the inspection process happens one day after the cases are processed, due to limitations with Expert availability, real-time corrective actions in the factory in case of deviations in product quality gets difficult 
+• Due to human involvement in the visual inspection, there is inherent subjectivity involved in the process 
+
+3. PROBLEM STATEMENT: 
+To automate in real-time, the packed case inspection using Machine Learning and Image Processing techniques and enhancing the objectivity of the inspection process. 
+
+4. PROJECT DELIVERABLES: 
+(a) To develop 3 separate algorithms which imitate Color, Ripeness and Uniformity inspection while keeping the processing time for each of the algorithms under 1 minute each 
+(b) The developed Algorithms to be generic of the grade type for all Color, Ripeness and Uniformity dimensions 
+(c) To identify patterns for Color, Ripeness & Uniformity inspection, if any by understanding the way Algorithm is functioning 

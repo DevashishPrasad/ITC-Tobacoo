@@ -1,0 +1,36 @@
+Hello Sir,
+
+	We missed the starting 7-10 minutes of the skype session due to poor network. So, this is what we have understood the problem statement after skype session and reading the PPT you shared. We also have some doubts.
+
+I. Understanding of problem statement
+1) We need to make a real time system 
+2) Classification of leaves on the basis of COLOR, RIPENESS, UNIFORMITY -
+	2.1) COLOR - There is a typical range of color for tobacco leaves. A given leaf cannot have a color outside this range, if it has a color outside this range then it belongs no grade (bad leaf). The color range is from Lemon to Mahogany or Live brown (as given in the PPT). Color is a significant factor for determining the ripeness of the leaf.
+	2.2) RIPENESS - Ripeness of the leaf is given by 5 levels as following - 1.Unripe 2.Immature 3.Mature 4.Ripe 5.Overripe. Each level has its corresponding colors. Ripeness also depends on the oil intensity. Oil intensity is again having various levels - 1.Lean 2.Lean to lightly oily 3.Lean to oily 4.Oily to rich 5.Lean oily or rich. And these levels have their corresponding color.
+	2.3) UNIFORMITY - Uniformity of leaf is to be identified using the texture of the leaf. There are 4 types of textures 1.Tight/Close 2.firm 3.Grainy 4.Open. Moreover Uniformity in the color distribution and texture distribution is also important. The degree of blemish or damage is also a significant factor for leaf classification. 
+
+3) Processing time of each algorithm should be below one minute.
+4) The grade is represented as a 3 digit code, where 1st digit gives us Plant position, 2nd gives us Colour and 3rd gives Ripeness. 
+
+II. Approach
+1) If the image contains leaf as well as background then we will first use background subtraction or leaf segmentation to extract just the leaf from the image. This will give all pixels having only leaf.
+2) We will extract color features based on color histograms of the image which gives us RGB or HSI value distribution. And to tackle color uniformity, we will have a color segmentation algorithm to segment image based on color clustering. More number of segments will result in non uniformity and vice versa.
+3) Ripeness will be determined by two factors - 1.Color and 2.Maturity.
+4) We will then use texture feature extraction techniques to identify the texture of the leaf.
+5) We will first implement all 3 algorithms separately and then look to implement a single neural network which will combine all three tasks.
+6) We will extract features of all training images and train the model. When a test input image is given the model will match it with respective class and give the probability of its match with the class.    
+
+III. Doubts
+1) Plant Position - As the PPT says the plant position gives the leaf a unique body and shape. So if the shape or body of leaf changes, then does the grade also changes? Does the leaves belonging to the same plant have same grade? Should we concern about the plant position or just stick to the COLOR, RIPENESS or UNIFORMITY?
+2) Number of leaves - Will the image contain a single Leaf or multiple leaves or crushed leaves?
+3) Consitency of POV (Position of View) - Will the position and angle of the taking pictures of leaves will remain consistent or the images are clicked manually with variable positional height and angle?
+4) Maturiry of leaf - We have no idea about maturity of a leaf. Can you please brief about it now or we need to wait for the dataset to assess it?
+
+
+
+This is what we have understood the problem statement. And we are following the above mentioned approach. Please let us know if have misunderstood something or we are deviating from the problem statement. Please clear our doubts and give suggestions.
+
+looking to hear from you soon.
+
+Best Regards,
+Devashish Krishna Prasad
