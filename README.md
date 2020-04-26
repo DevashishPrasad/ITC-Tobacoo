@@ -23,4 +23,4 @@ This repo contains code for the SIH 2019 project. Tobaco classification on the b
 <img src="new/dataset/6.jpeg" width="200"> <img src="new/dataset/7.jpeg" width="200">
 
 ## System
-<img src="1.png">
+<img src="1.jpg">
