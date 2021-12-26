@@ -1,4 +1,4 @@
-# ITC-Tobacoo
+# Tobacoo Grade Classification System
 This repo contains code for the Smart India Hackathon 2019 project. Tobacco classification is a difficult problem, and only highly expert humans can correctly tell the grade of tobacco. This project is an effort to automate this process using an AI-based system. Our method predicts the grade of tobacco leaves using images based on color, texture, and ripeness. 
 
 This project was built for ITC Ltd.
